@@ -91,9 +91,9 @@ backup-YYYY-MM-DD-HHMM.tar.gz
 **Example:**
 
 ```
-backup-2024-11-03-1430.tar.gz
+backup-2025-11-21-1549.tar.gz
 ```
-
+<img width="1142" height="295" alt="Image" src="https://github.com/user-attachments/assets/aac7e46a-efa8-4fe7-853a-f23a65390016" />
 ---
 
 ### **Excluding Unnecessary Files**
@@ -132,8 +132,8 @@ Backups older than these are deleted.
 
 ```
 backups/
- ├── backup-2025-02-01-1200.tar.gz
- ├── backup-2025-01-28-1200.tar.gz.md5
+ ├── backup-2025-11-21-1549.tar.gz
+ ├── backup-2025-11-21-1549.tar.gz.md5
  └── ...
 ```
 
@@ -176,12 +176,15 @@ backups/
 ### **Example Output**
 
 ```
-[2025-02-12 14:30:15] INFO: Starting backup of /home/user/Documents
-[2025-02-12 14:30:45] SUCCESS: Backup created: backup-2025-02-12-1430.tar.gz
-[2025-02-12 14:30:50] SUCCESS: Checksum verified successfully
+[2025-11-21 15:49:03] INFO: Starting backup of /c/Users/harip/Desktop/projects
+[2025-11-21 15:49:03] SUCCESS: Backup created: backup-2025-11-21-1549.tar.gz
+[2025-11-21 15:49:03] INFO: Checksum created: backup-2025-11-21-1549.tar.gz.md5
+[2025-11-21 15:49:04] INFO: Archive integrity OK
+[2025-11-21 15:49:04] INFO: Applying retention policy
+[2025-11-21-1549.tar.gz
+[2025-11-21 15:49:04] SUCCESS: Backup job completed for /c/Users/harip/Desktop/projects
 ```
 
----
 
 ## **F. Known Limitations**
 
